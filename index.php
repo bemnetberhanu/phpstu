@@ -11,7 +11,7 @@
 <form action="index.php"method="post">
   <label for="">user name</label>
   <input type="text"name="country">
-  <label for="">password</label>
+
   <input type="submit" value=" submit">
 </form>
 
@@ -23,7 +23,7 @@
 
 <?php
 
-
+$username =$_POST['country'];
 
 
 
